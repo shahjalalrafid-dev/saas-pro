@@ -9,7 +9,8 @@ export default {
       colors: {
         'primary' : '#EEF4F9',
         'secondary' : '#2C83BB',
-        'offwhite' : '#FFFFFF'
+        'offwhite' : '#FFFFFF',
+        'third' : '#0D554C'
       },
       fontFamily: {
         'inter' : ["Inter", "sans-serif"],
