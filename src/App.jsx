@@ -7,11 +7,13 @@ import Contact from './assets/contact.png'
 import Container from './components/Container'
 import Flex from './components/Flex'
 import Navbar from './layouts/Navbar'
+import Banner from './layouts/Banner'
 
 const App = () => {
   return (
     <>
     <Navbar/>
+    <Banner/>
 
 
 
