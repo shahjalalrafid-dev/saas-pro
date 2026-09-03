@@ -8,12 +8,14 @@ import Container from './components/Container'
 import Flex from './components/Flex'
 import Navbar from './layouts/Navbar'
 import Banner from './layouts/Banner'
+import About from './layouts/About'
 
 const App = () => {
   return (
     <>
     <Navbar/>
     <Banner/>
+    <About/>
 
 
 
