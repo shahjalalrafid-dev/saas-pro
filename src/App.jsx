@@ -9,6 +9,7 @@ import Flex from './components/Flex'
 import Navbar from './layouts/Navbar'
 import Banner from './layouts/Banner'
 import About from './layouts/About'
+import Industry from './layouts/Industry'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
     <Navbar/>
     <Banner/>
     <About/>
+    <Industry/>
 
 
 

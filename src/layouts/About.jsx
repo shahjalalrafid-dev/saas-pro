@@ -3,12 +3,17 @@ import Container from '../components/Container'
 import Flex from '../components/Flex'
 import Heading from '../components/Heading'
 import { FaStar } from "react-icons/fa";
+import AboutImageOne from '../assets/about-1.png'
+import Image from '../components/Image'
+import AboutCard from '../components/AboutCard';
 
 const About = () => {
     return (
         <section>
             <Container>
-                <Flex className= 'bg-white p-[50px] rounded-lg shadow-2xl my-10 justify-between'>
+
+                <div className=' bg-white p-[50px] rounded-lg shadow-2xl my-10'>
+                    <Flex className= ' border-b border-[rgba(17,47,66, 0.1)] justify-between pb-10 mb-6'>
                     <div>
                         <h5 className='text-sm text-secondary font-rale font-bold'>Who we are </h5>
                         <Heading className= 'leading-[48px] w-[749px]' text="More than 5,000 users around the world are already using STDEV actively" />
@@ -29,6 +34,14 @@ const About = () => {
                         <p className='text-base text-[#495E6C] font-roboto font-normal'>35 Reviews</p>
                     </div>
                 </Flex>
+                <Flex className = 'justify-between'>
+                    <AboutCard src={AboutImageOne} title= "70+" des = "Professionals"  />
+                    <AboutCard src={AboutImageOne} title= "22 Years" des = "Years of Experience"  />
+                    <AboutCard src={AboutImageOne} title= "$40+M" des = "Fundraised by customers"  />
+
+                </Flex>
+                </div>
+                
             </Container>
         </section>
     )
