@@ -4,6 +4,9 @@ import Banner from './layouts/Banner'
 import About from './layouts/About'
 import Industry from './layouts/Industry'
 import Product from './layouts/Product'
+import Pricing from './layouts/Pricing'
+import Footer from './layouts/Footer'
+
 
 const App = () => {
   return (
@@ -13,6 +16,8 @@ const App = () => {
     <About/>
     <Industry/>
     <Product />
+    <Pricing />
+    <Footer />
 
     </>
   )

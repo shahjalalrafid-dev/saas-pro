@@ -9,10 +9,13 @@ import AboutCard from '../components/AboutCard';
 
 const About = () => {
     return (
-        <section>
+        <section className='relative  overflow-hidden'>
+            <div className='bg-[#0E554E] absolute -top-[2px] -left-[2px] -right-[2px] -bottom-[2px] [clip-path:polygon(0%_0%,100%_0%,100%_100%)]'>
+
+            </div>
             <Container>
 
-                <div className=' bg-white p-[50px] rounded-lg shadow-2xl my-10'>
+                <div className=' relative z-10 bg-white p-[50px] rounded-lg shadow-2xl pt-10 '>
                     <Flex className= ' border-b border-[rgba(17,47,66, 0.1)] justify-between pb-10 mb-6'>
                     <div>
                         <h5 className='text-sm text-secondary font-rale font-bold'>Who we are </h5>
