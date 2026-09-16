@@ -9,7 +9,8 @@ import Button from '../components/Button'
 
 const Navbar = () => {
     return (
-        <nav className="bg-third py-6">
+    
+        <nav className="bg-third py-6 hidden lg:block">
 
 
             <Container>
@@ -26,7 +27,7 @@ const Navbar = () => {
                             <NavList text="Contact" />
 
                         </ul>
-                        <Button text="Let's Talk" />
+                        <Button text="Let's Talk" className= 'hover:bg-white hover:text-green-600' />
                     </Flex>
                         
                     

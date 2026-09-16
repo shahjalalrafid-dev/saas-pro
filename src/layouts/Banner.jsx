@@ -20,14 +20,14 @@ const Banner = () => {
                             <SubHeading text = "adaptable digital solutions that satisfy the needs of today and unlock the opportunities of tomorrow."></SubHeading>
                             <div className = 'w-[561px] relative mt-11'>
                                 <input className='w-full py-4 px-4 rounded-[8px] text-base outline-none' type="text" />
-                                <button className = 'bg-secondary rounded-r-[8px] absolute top-0 right-0 py-4 font-rale text-offwhite font-semibold text-base px-6 hover:bg-third hover:text-offwhite '>Request for Demo</button>
+                                <button className = 'bg-secondary rounded-r-[8px] absolute top-0 right-0 py-4 font-rale text-offwhite font-semibold text-base px-6 hover:bg-[#cfdddb] hover:text-green-600 duration-500'>Request for Demo</button>
 
                             </div>
                         
 
                     </div>
                     <div className="w-1/2 absolute top-1/2 -translate-y-1/2 right-0">
-                        <Image src={BannerImage} alt = "Banner Image" />
+                        <Image src={BannerImage} alt = "Banner Image" className= 'pr-10' />
                     
                     </div>
                 </Flex>

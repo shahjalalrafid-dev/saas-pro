@@ -13,19 +13,19 @@ const Footer = () => {
   return (
     <>
     
-        <footer className='bg-fourth border-b border-offwhite'>
+        <footer className='bg-fourth pt-[100px] pb-[84px]'>
         <Container>
             <div className='grid grid-cols-4'>
                 <div>
                     <Image src={LogoImage} />
                     <SubHeading className= 'pb-8 pt-6' text= "Orem ipsum dolor sit amet, consectetur adipiscing elit. Dictumst augue amet, luctus quis gravida nulla netus ut platea." />
-                    <ul className='text-white flex gap-6'>
-                        <li><FaFacebook /></li>
-                        <li><FaTwitter /></li>
-                        <li><FaInstagram /></li>
+                    <ul className='text-offwhite flex gap-6'>
+                        <li><FaFacebook className='cursor-pointer' /></li>
+                        <li><FaTwitter className='cursor-pointer' /></li>
+                        <li><FaInstagram className='cursor-pointer' /></li>
                     </ul>
                 </div>
-                <div>
+                <div className='ml-[60px]'>
                     <FooterItemTitle text = "Company" />
                     <ul className='flex flex-col gap-y-4 mt-7'>
                         <FooterList text= "About Us"  />
@@ -42,7 +42,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div>
-                    <FooterItemTitle text = "Company" />
+                    <FooterItemTitle text = "Contact Details" />
                     <ul className='flex flex-col gap-y-4 mt-7'>
                         <FooterList text= "Amsterdam Netherlands"  />
                         <FooterList text= "+1 62 19 22 705"  />
@@ -54,8 +54,9 @@ const Footer = () => {
             </div>
         </Container>
     </footer>
+    <hr className="border-slate-600" />
     <footer className = "bg-fourth py-7" >
-        <p className='text-center'>© 2021 All Rights Reserved</p>
+        <p className='text-center opacity-90 text-white'>© 2021 All Rights Reserved</p>
 
     </footer>
     

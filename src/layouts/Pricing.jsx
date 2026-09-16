@@ -13,7 +13,7 @@ const Pricing = () => {
         setChange(!change);
     }
     return (
-        <section className="pb-[90px]">
+        <section className="pb-[90px] pt-[114px]">
             <Container>
                 <Heading text="Affordable Pricing" className='text-center'></Heading>
 
@@ -32,16 +32,16 @@ const Pricing = () => {
 
                         
                         <Flex className='justify-between'>
-                            <PricingCard planName="Free Plan" planPrice="$0" buttonText="Try It" timeFrame = "monthly" ></PricingCard>
-                            <PricingCard planName="Premium Plan" planPrice="$100" buttonText="Try" timeFrame = "monthly"></PricingCard>
-                            <PricingCard planName="Business Plan" planPrice="$1000" buttonText="Buy" timeFrame = "monthly"></PricingCard>
+                            <PricingCard planName="Free Plan" planPrice="$0" buttonText="Try for Free" timeFrame = "monthly" ></PricingCard>
+                            <PricingCard planName="Premium Plan" planPrice="$100" buttonText="Try for Plan" timeFrame = "monthly"></PricingCard>
+                            <PricingCard planName="Business Plan" planPrice="$1000" buttonText="Try for Plan" timeFrame = "monthly"></PricingCard>
                         </Flex>
 
                         :
                         <Flex className='justify-between'>
-                            <PricingCard planName="Free Plan" planPrice="$0" buttonText="Try It" timeFrame = "yearly"></PricingCard>
-                            <PricingCard planName="Premium Plan" planPrice="$200" buttonText="Try" timeFrame = "yearly"></PricingCard>
-                            <PricingCard planName="Business Plan" planPrice="$1200" buttonText="Buy" timeFrame = "yearly"></PricingCard>
+                            <PricingCard planName="Free Plan" planPrice="$0" buttonText="Try for Free" timeFrame = "yearly"></PricingCard>
+                            <PricingCard planName="Premium Plan" planPrice="$200" buttonText="Try for Plan" timeFrame = "yearly"></PricingCard>
+                            <PricingCard planName="Business Plan" planPrice="$1200" buttonText="Try for Plan" timeFrame = "yearly"></PricingCard>
                         </Flex>
                         
                 }
