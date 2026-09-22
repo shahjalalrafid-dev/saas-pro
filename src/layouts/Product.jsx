@@ -10,15 +10,15 @@ import ProductImageThree from "../assets/product-image-3.png"
 const Product = () => {
   return (
     <section className="pt-[113px] pb-[70px] bg-[#F3F3F3]">
-        <Container>
-            <Heading text= "All product work with several devices." className= 'text-center w-[370px] mx-auto'></Heading>
-            <SubHeading className= '!text-[#495E6C] w-[455px] mx-auto text-center mt-[27px] mb-[34px]' text= "A great SaaS UI/UX design can make your product addictive and uncomfortable to give up." ></SubHeading>
+        <div className="container mx-auto">
+            <Heading text= "All product work with several devices." className= 'text-center lg:w-[370px] lg:mx-auto w-auto'></Heading>
+            <SubHeading className= '!text-[#495E6C] lg:w-[455px] w-auto mx-auto text-center mt-[27px] mb-[34px]' text= "A great SaaS UI/UX design can make your product addictive and uncomfortable to give up." ></SubHeading>
             <Flex className= 'justify-center gap-4'>
                 <Image src={ProductImageOne} alt= "Product Image One" ></Image>
                 <Image src={ProductImageTwo} alt= "Product Image Two" ></Image>
             </Flex>
-            <Image className= 'mt-[55px]' src={ProductImageThree} alt= "Product Image Three"></Image>
-        </Container>
+            <Image className= 'lg:mt-[55px] lg:w-full w-1/3' src={ProductImageThree} alt= "Product Image Three"></Image>
+        </div>
     </section>
   )
 }

@@ -12,16 +12,16 @@ import ServiceCard from '../components/ServiceCard'
 const Services = () => {
   return (
     <section className='bg-[#F3F3F3] pt-[113px] pb-[150px]'>
-        <Container>
+        <div className='container mx-auto'>
             <Heading text= "The Product we work with." className= 'text-center mb-[60px]' />
-            <div className='grid grid-cols-3 gap-7'>
+            <div className='grid lg:grid-cols-3 lg:gap-7 grid-cols-1'>
                 <ServiceCard src={ServiceImageOne} text= "Consulting" />
                 <ServiceCard src={ServiceImageTwo} text= "Security" />
                 <ServiceCard src={ServiceImageThree} text= "Management & support" />
                 
 
             </div>
-        </Container>
+        </div>
     </section>
   )
 }

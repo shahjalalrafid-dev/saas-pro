@@ -14,7 +14,7 @@ const Pricing = () => {
     }
     return (
         <section className="pb-[90px] pt-[114px]">
-            <Container>
+            <div className="container mx-auto">
                 <Heading text="Affordable Pricing" className='text-center'></Heading>
 
                 
@@ -31,14 +31,14 @@ const Pricing = () => {
                     change ?
 
                         
-                        <Flex className='justify-between'>
+                        <Flex className='justify-between flex-col lg:flex-row'>
                             <PricingCard planName="Free Plan" planPrice="$0" buttonText="Try for Free" timeFrame = "monthly" ></PricingCard>
                             <PricingCard planName="Premium Plan" planPrice="$100" buttonText="Try for Plan" timeFrame = "monthly"></PricingCard>
                             <PricingCard planName="Business Plan" planPrice="$1000" buttonText="Try for Plan" timeFrame = "monthly"></PricingCard>
                         </Flex>
 
                         :
-                        <Flex className='justify-between'>
+                        <Flex className='justify-between flex-col lg:flex-row'>
                             <PricingCard planName="Free Plan" planPrice="$0" buttonText="Try for Free" timeFrame = "yearly"></PricingCard>
                             <PricingCard planName="Premium Plan" planPrice="$200" buttonText="Try for Plan" timeFrame = "yearly"></PricingCard>
                             <PricingCard planName="Business Plan" planPrice="$1200" buttonText="Try for Plan" timeFrame = "yearly"></PricingCard>
@@ -50,7 +50,7 @@ const Pricing = () => {
 
 
 
-            </Container>
+            </div>
         </section>
     )
 }

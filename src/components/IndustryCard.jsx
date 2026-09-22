@@ -2,7 +2,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import Image from '../components/Image'
 const IndustryCard = ({ src, alt, heading, des }) => {
   return (
-    <div className='w-[366px] h-[465px] bg-white rounded-xl shadow-lg'>
+    <div className='lg:w-[366px] lg:h-[465px] w-auto  bg-white rounded-xl shadow-lg'>
       <div className='w-[346px] h-[220px] mx-auto pt-[10px]'>
         <Image className='w-full h-full ' src={src} alt={alt} />
       </div>

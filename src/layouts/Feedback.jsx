@@ -10,17 +10,17 @@ import FeedBackImageFour from '../assets/feedback4.png'
 const Feedback = () => {
   return (
     <section className='bg-[#F3F3F3] pt-[120px] pb-[150px]'>
-        <Container>
-            <div className='grid grid-cols-2'>
+        <div className='container mx-auto'>
+            <div className='grid lg:grid-cols-2 grid-cols-1'>
                 <div>
                     <div>
                         <img src= {FeedbackImageOne} alt="Feedback Image" />
                     </div>
-                    <Heading text= "What our clients say about us" className= 'w-[460px] my-[27px] '></Heading>
-                    <SubHeading text= "Nunc tortor vel tincidunt id massa congue. Varius risus lorem vestibulum velit." className= '!text-[#495E6C] w-[433px] font-roboto text-base' ></SubHeading>
+                    <Heading text= "What our clients say about us" className= 'lg:w-[460px] w-auto my-[27px] '></Heading>
+                    <SubHeading text= "Nunc tortor vel tincidunt id massa congue. Varius risus lorem vestibulum velit." className= '!text-[#495E6C] lg:w-[433px] w-auto font-roboto text-base' ></SubHeading>
                 </div>
                 <div>
-                    <div className= 'grid grid-cols-2 gap-5'>
+                    <div className= 'grid lg:grid-cols-2 gap-5 grid-cols-1'>
                         <FeedBackCard src={FeedBackImageThree} text= "Davis Lubin" designation= "CEO of Fashionon" ></FeedBackCard>
                         <FeedBackCard src={FeedBackImageFour} text= "Leslie Alexander" designation= "CEO of Fashionon"></FeedBackCard>
                         
@@ -32,7 +32,7 @@ const Feedback = () => {
             </div>
 
 
-        </Container>
+        </div>
     </section>
   )
 }

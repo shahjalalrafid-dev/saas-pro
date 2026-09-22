@@ -16,18 +16,22 @@ import Article from './layouts/Article'
 const App = () => {
   return (
     <>
-    <Navbar/>
-    <Banner/>
-    <About/>
-    <Industry/>
-    <Product />
-    <Engage />
-    <Services />
-    <Pricing />
-    <Feedback />
-    <Contact />
-    <Article />
-    <Footer />
+      
+        <Navbar />
+        <Banner />
+        <About />
+        <Industry />
+        <Product />
+        <Engage />
+        <Services />
+        <Pricing />
+        <Feedback />
+        <Contact />
+        <Article />
+        <Footer />
+
+      
+
 
     </>
   )

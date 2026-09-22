@@ -3,7 +3,7 @@ import Flex from './Flex'
 import Image from './Image'
 const AboutCard = ({src, title, des}) => {
   return (
-    <Flex className='items-center gap-x-5'>
+    <Flex className='items-center justify-center gap-x-5'>
                         <Image src = {src} alt = "Aboout Image" />
                         <div>
                             <h2 className='text-[30px] font-bold text-secondary font-inter'>{title}</h2>

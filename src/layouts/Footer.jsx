@@ -13,10 +13,10 @@ const Footer = () => {
   return (
     <>
     
-        <footer className='bg-fourth pt-[100px] pb-[84px]'>
-        <Container>
-            <div className='grid grid-cols-4'>
-                <div>
+        <footer className='bg-fourth lg:pt-[100px] lg:pb-[84px] pt-[40px] pb-[30px]'>
+        <div className='container mx-auto'>
+            <div className='grid lg:grid-cols-4 grid-cols-1'>
+                <div className='justify-self-center'>
                     <Image src={LogoImage} />
                     <SubHeading className= 'pb-8 pt-6' text= "Orem ipsum dolor sit amet, consectetur adipiscing elit. Dictumst augue amet, luctus quis gravida nulla netus ut platea." />
                     <ul className='text-offwhite flex gap-6'>
@@ -52,7 +52,7 @@ const Footer = () => {
                 </div>
 
             </div>
-        </Container>
+        </div>
     </footer>
     <hr className="border-slate-600" />
     <footer className = "bg-fourth py-7" >

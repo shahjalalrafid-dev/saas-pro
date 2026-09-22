@@ -11,11 +11,11 @@ import IndustryImagesix from "../assets/industry-image-6.png"
 
 const Industry = () => {
   return (
-    <section className="pt-[100px] pb-[120px]">
-        <Container>
+    <section className="lg:pt-[100px] lg:pb-[120px] pt-[35px] pb-[30px]">
+        <div className="container mx-auto">
 
-            <Heading text = "Industries in Focus" className= 'text-center mb-[60px]'/>
-            <Flex className= 'justify-between flex-wrap gap-y-[30px]'>
+            <Heading text = "Industries in Focus" className= 'text-center lg:mb-[60px] mb-[20px]'/>
+            <Flex className= 'lg:justify-between lg:flex-wrap lg:gap-y-[30px] gap-y-[20px] lg:flex-row flex-col '>
                 <IndustryCard src={IndustryImageOne} heading= "FinTech" des = "Psum dolor sit amet, consectetur adipiscing elit. Nisi, maecenas orci sit pellentesque eget." />
                 <IndustryCard src={IndustryImageTwo} heading= "Telecom" des = "Psum dolor sit amet, consectetur adipiscing elit. Nisi, maecenas orci sit pellentesque eget." />
                 <IndustryCard src={IndustryImageThree} heading= "Retail" des = "Psum dolor sit amet, consectetur adipiscing elit. Nisi, maecenas orci sit pellentesque eget." />
@@ -25,7 +25,7 @@ const Industry = () => {
                 
             </Flex>
             
-        </Container>
+        </div>
 
     </section>
   )
