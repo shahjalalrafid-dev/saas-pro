@@ -11,10 +11,10 @@ import ArticleImageSix from '../assets/article4 (3).png'
 
 const Article = () => {
   return (
-    <section className="pt-[110px] py-[90px] bg-[#F3F3F3]">
+    <section className="lg:pt-[110px] lg:py-[90px] py-[30px] bg-[#F3F3F3] px-5">
         <div className="container mx-auto">
             <Heading text= "Recent News & Articles" className= 'text-center' />
-            <div className="mt-[60px] grid lg:grid-cols-3 lg:gap-6 grid-cols-1 gap-4">
+            <div className="lg:mt-[60px] mt-[30px] grid lg:grid-cols-3 lg:gap-6 grid-cols-1 gap-4">
               <ArticleCard src= {ArticleImageOne} heading = "Where Should I Buy Next?" writer = "Carter Rosser" date = "24/08/2021" text ="From romantic getaways to adventurous hikes, find your next..." src2={ArticleImageFour} />
               <ArticleCard src= {ArticleImageTwo} heading = "Malesuada Fermentum Tortor" writer = "Carter Rosser" date = "24/08/2021" text ="From romantic getaways to adventurous hikes, find your next..." src2={ArticleImageFive} />
               <ArticleCard src= {ArticleImageThree} heading = "Magna Malesuada" writer = "Carter Rosser" date = "24/08/2021" text ="From romantic getaways to adventurous hikes, find your next..." src2={ArticleImageSix} />
