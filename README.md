@@ -2,7 +2,7 @@
 
 > A sleek, high-converting, and modern SaaS web platform designed to showcase software products, feature highlights, and flexible subscription plans with an exceptional user experience.
 
-🔗 **[Live Demo Link](https://saas-pro-project.netlify.app/)**
+🔗 **[Saas Pro Project](https://saas-pro-project.netlify.app/)**
 
 ---
 
