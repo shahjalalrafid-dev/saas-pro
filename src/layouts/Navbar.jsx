@@ -5,11 +5,21 @@ import Image from '../components/Image'
 import Logo from '../assets/logo.png'
 import NavList from '../components/NavList'
 import Button from '../components/Button'
+import { MdCancel } from "react-icons/md";
 
 import { AiOutlineMenuUnfold } from "react-icons/ai";
+import { useState } from 'react'
 
 
 const Navbar = () => {
+
+    const [click, setClick] = useState(false);
+
+    const handleMenu = () => {
+        setClick(!click);
+    }
+
+
     return (
         <>
 
@@ -49,12 +59,27 @@ const Navbar = () => {
                         <div>
                             <img src={Logo} alt="Logo Image" className='w-2/3' />
                         </div>
-                        <div>
-                            <AiOutlineMenuUnfold className='text-white text-xl' />
+                        <div> 
+                            {
+                                click ? <MdCancel onClick={handleMenu} className='text-white text-xl' />   : <AiOutlineMenuUnfold onClick={handleMenu} className='text-white text-xl' />
+                            }
+                            
                         </div>
 
 
                     </div>
+
+                    {
+                        click && <ul className='flex flex-col items-center bg-[#00A300] py-3 mt-3 text-[#E6FFE6] z-50 space-y-1'>
+                        <li>Home</li>
+                        <li>Pages</li>
+                        <li>About Us</li>
+                        <li>Services</li>
+                        <li>Blog</li>
+                        <li>Contact</li>
+                    </ul>
+                    }
+                    
 
                 </div>
 
